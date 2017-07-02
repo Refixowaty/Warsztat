@@ -1,0 +1,8 @@
+2017-06-09 14:58:24 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Błąd składniowy w wyrażeniu SQL "SELECT * ADDRESS[*] FROM CUSTOMER"
+Syntax error in SQL statement "SELECT * ADDRESS[*] FROM CUSTOMER"; SQL statement:
+SELECT * ADDRESS FROM CUSTOMER [42000-193]
+2017-06-14 02:26:34 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Tabela "ADAM" nie istnieje
+Table "ADAM" not found; SQL statement:
+DELETE ADAM BEDNARKIEWICZ FROM CUSTOMER [42102-193]
